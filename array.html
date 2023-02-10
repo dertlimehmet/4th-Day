@@ -10,10 +10,10 @@
             { id: 3, name: "kalem 3", price: 300, stock: 60 }
         ]
 
-        var product = products.find(product => product.price > 100);
+        var product = products.find(product => product.price > 100); //ilk değer
         console.log(product);
 
-        var searchProducts = products.filter(product => product.price > 100);
+        var searchProducts = products.filter(product => product.price > 100); //tüm değerler
         console.log(searchProducts);
 
         var productIndex = products.findIndex(x => x.name == "kalem 3");
